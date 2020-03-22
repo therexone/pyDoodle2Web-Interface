@@ -130,3 +130,6 @@ dmypy.json
 
 #custom
 .vscode
+__pychache__/
+env/
+.vscode/
