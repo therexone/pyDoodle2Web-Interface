@@ -19,4 +19,4 @@ def get_elements():
     except PIL.UnidentifiedImageError:
         print('Could not read the image file, check filetype.')
 
-get_elements()
+# get_elements()
