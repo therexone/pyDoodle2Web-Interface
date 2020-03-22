@@ -2,7 +2,7 @@
 {% extends 'base.html' %}
 {% block content %}
   <div class="container-fluid main px-5" style="height: 100vh;">
-    <div class="row px-5">
+    <div class="row px-5 mt-auto" style="height: 100%;">
       <div class="col-lg-6 align-self-center text-center">
         <h1 style="font-size: 3rem ; font-family: 'Dekko', cursive;">pyDoodle2Web</h1>
         <p style="font-family: 'Source Sans Pro', sans-serif;font-weight: 300; font-size: 1.2rem;">A handy tool written
@@ -19,7 +19,7 @@
         <a href="/upload/" role="button" class="btn btn-dark px-5 py-2 ml-2">Try it out</a>
 
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 align-self-center">
         {% load static %}
         <img src="{% static "assets/rhs-images.webp" %}" class="img-fluid" alt="My image">
       </div>
